@@ -1,6 +1,6 @@
 export interface BasicInput {
-  id: string;
-  label: string;
-  type: string;
-  placeholder: string;
+  id: any;
+  label: any;
+  placeholder: any;
+  type?: any;
 }
